@@ -53,7 +53,7 @@ a();
 b();
 */
 
-function waitThreeSeconds() {
+/*function waitThreeSeconds() {
     var ms = 3000 + new Date().getTime();
     while (new Date() < ms) {}
     console.log("Action Finished");
@@ -67,5 +67,16 @@ function clickHandler() {
 document.addEventListener('click',clickHandler);
 waitThreeSeconds();
 console.log("Finish Execution");
+*/
+
+function Hello(name) {
+    var name = name || 'Mert';
+    console.log("Hello "+name );
+}
+
+Hello();
+Hello("Duru");
+Hello(0);
+
 
 
