@@ -1,5 +1,6 @@
 
-/*var Person = {
+/*
+var Person = {
 
 name: 'Bora',
 Surname: 'Kasmer',
@@ -38,7 +39,8 @@ a();
 console.log(myVar);
 */
 
-/*function a() {
+/*
+function a() {
     function b()
     {
         console.log(myVar);
@@ -53,7 +55,8 @@ a();
 b();
 */
 
-/*function waitThreeSeconds() {
+/*
+function waitThreeSeconds() {
     var ms = 3000 + new Date().getTime();
     while (new Date() < ms) {}
     console.log("Action Finished");
@@ -69,6 +72,7 @@ waitThreeSeconds();
 console.log("Finish Execution");
 */
 
+/*
 function Hello(name) {
     var name = name || 'Mert';
     console.log("Hello "+name );
@@ -77,6 +81,7 @@ function Hello(name) {
 Hello();
 Hello("Duru");
 Hello(0);
+*/
 
 
 
